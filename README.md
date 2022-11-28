@@ -8,22 +8,32 @@ This is my custom .bashrc configuration for Bash.
 ## Homework 3 Additions
 Two directories and 6 files were added to My Dotfiles
 
-##.bin
+.bin:
 Holds two scripts to install my vim and bash configs.
-###cleanup.sh
+
+cleanup.sh:
 Inverse of linux.sh(cleans up everything done). Removes .vimrc from ~/, deletes the last line in the .bashrc, revoes the .TRASH directory in the ~/.
-###linux.sh
+
+linux.sh:
 Verifies OS is linux, Overwrites current .vimrc with the stored .vimrc, Creates a backup of the old config, creats .TRASH directory, and edits the .bashrc file.
 
-##.etc
+
+
+.etc:
 Holds the bashrc-custom and vimrc files.
-###bashrc-custom
+
+bashrc-custom:
 Bash config file that holds custom Aliases and functions.
-###vimrc
+
+vimrc:
 Vim config files to control the looks of the console. Other configs can be found at: https://vimconfig.com/
 
-##Additional Files
-###.gitignore
+
+
+Additional Files:
+
+.gitignore:
 Tells Git to ignore certain files or directories.
-###Makefile
+
+Makefile:
 Executes linux.sh and cleanup.sh. Prerequisite to linux.sh is cleanup.sh.
